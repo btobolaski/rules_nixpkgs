@@ -4,4 +4,5 @@ module(
 )
 
 bazel_dep(name = "rules_nixpkgs_core", version = "0.10.0")
+bazel_dep(name = "rules_nixpkgs_docs", version = "0.10.0")
 bazel_dep(name = "bazel_skylib", version = "1.0.3")
