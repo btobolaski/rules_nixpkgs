@@ -1,4 +1,4 @@
-load("@io_bazel_stardoc//stardoc:stardoc.bzl", _stardoc = "stardoc")
+load("@stardoc//stardoc:stardoc.bzl", _stardoc = "stardoc")
 
 def generate_documentation(
         name,
